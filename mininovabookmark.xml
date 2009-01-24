@@ -1,0 +1,7 @@
+<FeedFlareUnit>
+<Catalog>
+<Title>Mininova Bookmark</Title>
+<Description>Bookmark on Mininova</Description>
+</Catalog>
+<DynamicFlare href="http://mininovabookmarkfeedflare.appjet.net/?url=${link}&amp;enclosure=${a:link[(@rel='enclosure')]/@href}"/>
+</FeedFlareUnit>

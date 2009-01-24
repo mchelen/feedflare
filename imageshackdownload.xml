@@ -1,0 +1,10 @@
+<FeedFlareUnit>
+<Catalog>
+<Title>Download With ImageShack</Title>
+<Description>A link to download an enclosure BitTorrent file using ImageShack.com torrent download.</Description>
+</Catalog>
+<FeedFlare>
+<Text>Download With ImageShack</Text>
+<Link href="http://tor.imageshack.us/tor/?andthen=1&amp;url=${a:link[(@rel='enclosure')]/@href}&amp;submit=GO&amp;action=geturl"/>
+</FeedFlare>
+</FeedFlareUnit>
