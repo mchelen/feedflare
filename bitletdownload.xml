@@ -1,0 +1,10 @@
+<FeedFlareUnit>
+<Catalog>
+<Title>Download With BitLet</Title>
+<Description>A link to download enclosure BitTorrent file using BitLet.org</Description>
+</Catalog>
+<FeedFlare>
+<Text>Download With BitLet</Text>
+<Link href="http://www.bitlet.org/download?torrent=${a:link[(@rel='enclosure')]/@href}"/>
+</FeedFlare>
+</FeedFlareUnit>

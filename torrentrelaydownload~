@@ -1,0 +1,10 @@
+<FeedFlareUnit>
+<Catalog>
+<Title>Download with TorrentRelay</Title>
+<Description>A link to download an enclosure BitTorrent file using TorrentRelay.com mobile download.</Description>
+</Catalog>
+<FeedFlare>
+<Text>TorrentRelay Mobile Download</Text>
+<Link href="http://www3.torrelay.com/fresh/online.pl?url=${a:link[(@rel='enclosure')]/@href}&amp;ajax_uploader=yes"/>
+</FeedFlare>
+</FeedFlareUnit>

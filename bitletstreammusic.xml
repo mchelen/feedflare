@@ -1,0 +1,7 @@
+<FeedFlareUnit>
+<Catalog>
+<Title>Stream with BitLet</Title>
+<Description>Stream using BitLet.org if category is Music</Description>
+</Catalog>
+<DynamicFlare href="http://bitletfeedflarestreamif.appjet.net/?category=${a:category[1]/@term}&amp;url=${a:link[(@rel='enclosure')]/@href}"/>
+</FeedFlareUnit>
